@@ -69,6 +69,9 @@ const Products = () => {
                             <img className="w-100" src="/static/product9.jpg" alt="" />
                         </div>
                         <div>
+                            
+                        </div>
+                        <div>
                             <p className='border-b product-name m-0 py-1'>{t('product8')}</p>
                         </div>
                     </div>
