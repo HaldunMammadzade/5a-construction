@@ -1,0 +1,7 @@
+{
+  "locales": ["az", "en", "ru"],
+  "defaultLocale": "az",
+  "pages": {
+    "*": ["common"]  
+  }
+}
