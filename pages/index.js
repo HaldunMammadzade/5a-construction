@@ -49,7 +49,7 @@ export default function Home() {
             </section>
 
             <section>
-                <div className='about-cover my-5'>
+                <div className='about-cover my-5 d-lg-block d-none'>
                     <img className='main-img' src="/static/about-cover.jpg" alt="" />
                 </div>
                 <div className='container-fluid'>
@@ -57,7 +57,7 @@ export default function Home() {
                         <div className='col-md-6 col-12'>
                             <h1>{t('aboutTitle')}</h1>
                         </div>
-                        <div className='col-md-6 col-12 px-xl-5 px-0'>
+                        <div className='col-md-6 col-12 '>
                             <p>{t('aboutDesc')}</p>
                             <button className='mt-4'>
                                 <a href="/about-us">{t('buttonMore')}</a>
@@ -65,11 +65,14 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
+                <div className='about-cover my-5 d-lg-none d-block'>
+                    <img className='main-img' src="/static/about-cover.jpg" alt="" />
+                </div>
             </section>
 
             <section className='statistics border-t border-b'>
                 <div className='row align-items-center'>
-                    <div className='col-md-6 col-12 border-b border-r pr-0'>
+                    <div className='col-md-6 col-12 border-b border-r pr-lg-0'>
                         <div className='container-fluid my-4'>
                             <p>200+</p>
                             <span>{t('satisfied')}</span>
@@ -81,7 +84,7 @@ export default function Home() {
                             <span>{t('projectCount')}</span>
                         </div>
                     </div>
-                    <div className='col-md-6 col-12 border-b border-r pr-0'>
+                    <div className='col-md-6 col-12 border-b border-r pr-lg-0'>
                         <div className='container-fluid my-4'>
                             <p>130</p>
                             <span>{t('kind')}</span>
@@ -109,7 +112,7 @@ export default function Home() {
                             <div className='container-fluid'>
                                 <Accordion.Header>
                                     <div className='d-flex align-items-center'>
-                                        <img src="/static/choose-icon1.svg" className='mt-4' alt="" />
+                                        <img src="/static/choose-icon1.svg" className='mt-lg-4' alt="" />
                                         <p className='mb-0'>{t('quality')}</p>
                                     </div>
                                 </Accordion.Header>
@@ -120,7 +123,7 @@ export default function Home() {
                             <div className='container-fluid'>
                                 <Accordion.Header>
                                     <div className='d-flex align-items-center'>
-                                        <img src="/static/choose-icon2.svg" className='mt-4' alt="" />
+                                        <img src="/static/choose-icon2.svg" className='mt-lg-4' alt="" />
                                         <p className='mb-0'>{t('service')}</p>
                                     </div>
                                 </Accordion.Header>
@@ -131,7 +134,7 @@ export default function Home() {
                             <div className='container-fluid'>
                                 <Accordion.Header>
                                     <div className='d-flex align-items-center'>
-                                        <img src="/static/choose-icon3.svg" className='mt-4' alt="" />
+                                        <img src="/static/choose-icon3.svg" className='mt-lg-4' alt="" />
                                         <p className='mb-0'>{t('develop')}</p>
                                     </div>
                                 </Accordion.Header>
@@ -144,7 +147,7 @@ export default function Home() {
 
             <section className='products py-lg-0 py-5'>
                 <div className='container-fluid'>
-                    <div className='d-xl-flex d-block justify-content-between my-xl-5 py-5'>
+                    <div className='d-xl-flex d-block justify-content-between my-xl-5 py-lg-5'>
                         <div className='mt-xl-5 mt-3 pt-xl-5 mt-3 product-desc'>
                             <h1>{t('ourProducts')}</h1>
                             <p className='mt-4'>{t('ourProductsText')}</p>
@@ -154,7 +157,7 @@ export default function Home() {
                         </div>
                         <div>
                             <div className='mt-5 product-img'>
-                                <a href="/products"><img className='float-xl-right main-img' src="/static/product1.jpg" alt="" /></a>
+                                <a href="/products"><img className='float-xl-right w-100' src="/static/product1.jpg" alt="" /></a>
                             </div>
                             <div>
                                 <p className='border-bottom product-name m-0 py-1'>{t('product1')}</p>
@@ -165,7 +168,7 @@ export default function Home() {
                     <div className='d-lg-flex align-items-center d-block justify-content-between py-2'>
                         <div>
                             <div className='product-img'>
-                                <a href="/products"><img className='float-xl-left px-5 main-img' src="/static/product2.jpg" alt="" /></a>
+                                <a href="/products"><img className='float-xl-left px-5 w-100' src="/static/product2.jpg" alt="" /></a>
                             </div>
                             <div>
                                 <p className='border-bottom product-name m-0 py-1'>{t('product2')}</p>
@@ -174,7 +177,7 @@ export default function Home() {
 
                         <div>
                             <div className='mt-xl-5 product-img border-bottom product3'>
-                                <a href="/products"><img className='float-xl-right px-2  main-img' src="/static/product3.jpg" alt="" /></a>
+                                <a href="/products"><img className='float-xl-right px-2 w-100' src="/static/product3.jpg" alt="" /></a>
                                 <p className='product-name  m-0 py-1'>{t('product3')}</p>
                             </div>
                             <div>
@@ -195,7 +198,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className='row animated fadeInRight'>
-                    <div className='col-xl-4  col-12 pr-0 border-1'>
+                    <div className='col-lg-4  col-12 pr-0 border-1'>
                         <a href="/project1">
                             <img className='w-100' src="/static/project1.jpg" alt="" />
                             <div className='px-4 py-3'>
@@ -205,7 +208,7 @@ export default function Home() {
                             </div>
                         </a>
                     </div>
-                    <div className='col-xl-4  col-12 pr-0 pl-0 border-1'>
+                    <div className='col-lg-4  col-12 pr-0 pl-0 border-1'>
                         <a href="/project2">
                             <img className='w-100' src="/static/project2.jpg" alt="" />
                             <div className='px-4 py-3'>
@@ -215,7 +218,7 @@ export default function Home() {
                             </div>
                         </a>
                     </div>
-                    <div className='col-xl-4  col-12 pl-0 pr-0 border-1'>
+                    <div className='col-lg-4  col-12 pl-0 pr-0 border-1'>
                         <a href="/project3">
                             <img className='w-100' src="/static/project3.jpg" alt="" />
                             <div className='px-4 py-3'>

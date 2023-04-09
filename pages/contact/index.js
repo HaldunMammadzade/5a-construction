@@ -12,10 +12,10 @@ const Contact = () => {
                 <title>{t('contactUs')}</title>
             </Head>
 
-            <section className="container-fluid">
-                <div className="row contact border-t border-b ">
-                    <div className="col-lg-7 col-12 border-l p-0 d-lg-none">
-                        <h1 className="mb-5 mt-4 ml-3">{t('contactUs')}</h1>
+            <section className="container-fluid px-md-2 px-0">
+                <div className="row contact">
+                    <div className="col-lg-7 col-12  p-0 d-lg-none">
+                        <h1 className="mb-5 mt-4 ml-3 ">{t('contactUs')}</h1>
 
                         <div className="d-flex justify-content-between border-t contact-info pl-3 pt-4 pb-5">
                             <span>{t('mail')}</span>
@@ -35,7 +35,7 @@ const Contact = () => {
                         </div>
                     </div>
                     <div className="col-lg-5 col-12 p-0">
-                        <img className='w-100 py-4 animated fadeInLeft' src="/static/contact.jpg" alt="" />
+                        <img className='w-100 py-lg-4 animated fadeInLeft' src="/static/contact.jpg" alt="" />
                     </div>
                     <div className="col-lg-7 col-12 border-l p-0 d-lg-block d-none">
                         <h1 className="mb-5 mt-4 ml-3">{t('contactUs')}</h1>

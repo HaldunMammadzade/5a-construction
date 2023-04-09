@@ -1,7 +1,10 @@
 import React from "react";
-import Link from "next/link";
+import useTranslation from 'next-translate/useTranslation';
+import i18nConfig from '../../../i18n.json'
 
+const { locales } = i18nConfig
 const Footer = () => {
+    const { t, lang } = useTranslation('common');
     return (
         <div className="footer">
             <div className="container-fluid pt-5 pb-3">
@@ -11,20 +14,20 @@ const Footer = () => {
                             <a href="/"><img src="/static/logo2.svg" alt="" /></a>
                         </div>
                         <div className="address">
-                            <p className="cursor">Ziya Bunyadov pr. 19-65
+                            <p className="cursor">{t('address1')}
                                 <br />
-                                Dərnəgül Tikinti Bazarı,
+                                {t('address2')},
                                 <br />
-                                Bakı, Azərbaycan</p>
+                                {t('address3')}</p>
                         </div>
                     </div>
                     <div className="col-lg-6 col-12 text-md-left d-flex p-0 mt-md-0 mt-4 justify-content-between">
                         <ul className="p-0 page-links">
-                            <li><a href="/about-us">HAQQIMIZDA</a></li>
-                            <li><a href="/products">MƏHSULLAR</a></li>
-                            <li><a href="/projects">PROYEKTLƏR</a></li>
-                            <li><a href="/sustainability">DAYANIQLILIQ</a></li>
-                            <li><a href="/contact">ƏLAQƏ</a></li>
+                            <li><a href="/about-us">{t('about')}</a></li>
+                            <li><a href="/products">{t('products')}</a></li>
+                            <li><a href="/projects">{t('projects')}</a></li>
+                            <li><a href="/sustainability">{t('sustain')}</a></li>
+                            <li><a href="/contact">{t('contact')}</a></li>
                         </ul>
 
                         <ul className="p-0">

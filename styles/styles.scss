@@ -1,4 +1,6 @@
 @import 'animate.css';
+@import url('https://fonts.googleapis.com/css2?family=Alexandria&display=swap');
+
 
 body {
   background-color: #fff !important;
@@ -8,8 +10,12 @@ body {
 
 
 * {
-  font-family: "TT Firs Neue Trial Medium", sans-serif !important;
+  font-family: 'Alexandria', sans-serif !important;
+
+
 }
+
+
 
 h1 {
   text-transform: uppercase;
@@ -30,7 +36,11 @@ h1 {
 .main {
   min-height: 100%;
   margin-top: 150px;
+  width: 100%;
+  overflow: hidden;
 }
+
+
 
 .marquee-container {
   height: 70px;
@@ -51,7 +61,7 @@ h1 {
     padding: 20px 0;
     position: absolute;
     white-space: nowrap;
-    animation: marquee 30s linear infinite;
+    animation: marquee 25s linear infinite;
 
     span {
       margin-right: 20px;
@@ -274,6 +284,7 @@ button {
   font-size: 50px;
   line-height: 115%;
   margin-top: 8rem;
+  text-align: end;
 }
 
 .about-sustain {
@@ -674,6 +685,8 @@ button {
 }
 
 @media (min-width: 769px) {
+
+
   .header li {
     float: left;
   }
@@ -721,12 +734,14 @@ button {
 .accordion-header {
   position: relative;
   margin-bottom: 0;
+  color: #000000;
 
   p {
     margin-left: 5.5rem;
     font-weight: 600;
     font-size: 25px;
     line-height: 140%;
+    text-transform: uppercase;
   }
 }
 
@@ -751,7 +766,7 @@ button {
   background-image: url(../public/static/arrow-collapse.svg);
   background-repeat: no-repeat;
   background-size: 1.25rem;
-  transition: transform 0.2s ease-in-out;
+  transition: transform .5s ease-in-out;
   position: absolute;
   right: 0;
   top: 10px;
@@ -761,6 +776,7 @@ button {
   background-image: url(../public/static/arrow-collapse.svg);
   -webkit-transform: rotate(-180deg);
   transform: rotate(-180deg);
+  transition: transform .3s ease-in-out;
 }
 
 .project-loc {
@@ -870,23 +886,53 @@ button {
   }
 }
 
-
-@media (min-width: 1537px) {}
-
 .accordion-collapse {
   margin-top: 20px;
   margin-right: 0;
   margin-left: 10rem;
 }
 
+@media (min-width: 1537px) {}
+
+
+@media (max-width: 1450px) {
+
+  // .footer {
+  //   width: 104% !important;
+  // }
+  // .main {
+  //   padding: 0 40px;
+  // }
+
+  // .projects,
+  // .products {
+  //   padding: 0 40px;
+  // }
+}
+
 @media (max-width: 1202px) {
+
+  .why-choose-us {
+    margin-right: 48rem;
+  }
+
+  .company-value-border {
+    border-bottom: 1px solid black;
+    // border-left: none !important;
+    padding-bottom: 20px;
+
+  }
+
+  .value1 {
+    align-items: center;
+    display: flex;
+  }
+
   .accordion-collapse {
     margin-right: 0;
   }
 
-  .main-img {
-    width: 500px !important;
-  }
+
 
   .about-header {
     margin-left: 5rem;
@@ -916,16 +962,19 @@ button {
 @media (max-width: 1025px) {
   .why-choose-us {
     margin-right: 0;
-}
+  }
+
   .about-cover img {
     -o-object-fit: cover;
     object-fit: cover;
-    width: 105% !important;
+    // width: 105% !important;
     height: 100%;
-}
-  .marquee-container {
-    width: 105%;
   }
+
+  .marquee-container {
+    // width: 105%;
+  }
+
   .about {
     width: 100%;
   }
@@ -951,9 +1000,7 @@ button {
     margin-right: 0;
   }
 
-  .main-img {
-    width: 400px !important;
-  }
+
 
   .about-header {
     margin-left: 0;
@@ -961,19 +1008,74 @@ button {
 }
 
 @media (max-width: 769px) {
+  .company-value-border {
+    border: none !important;
+    border-left: 2px solid #000000 !important;
+  }
+
+  .about {
+    margin: 2rem 0;
+  }
+
+  .statistics p {
+    font-size: 140px;
+  }
+
+  .accordion-header p {
+    margin-left: 1rem;
+    font-size: 20px;
+  }
+
+  .accordion-collapse {
+    margin-top: 50px;
+    margin-right: 0;
+    margin-left: 1rem;
+  }
+
+  .mobile-socials a {
+    color: #000000;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px
+  }
+
+  // .langs-mobile {
+  //   margin-top: 2rem;
+  //   margin-bottom: 3rem;
+  // }
+
+  .header .menu-btn:checked~.menu {
+    height: 100vh;
+  }
+
+  .header {
+    // height: 100vh !important;
+
+    li a {
+      margin: 10px 0;
+      font-size: 30px;
+      border-bottom: 2px solid black;
+      padding: 15px 0;
+    }
+
+  }
+
+
+
   .why-choose-us {
     margin-right: 0;
-}
+  }
+
   .marquee-container {
     width: 100%;
   }
+
   .footer .page-links {
     margin-left: 0;
   }
 
-  .main-img {
-    width: 105% !important;
-  }
+
 
   .product-text {
     margin-left: 0;
@@ -1159,40 +1261,108 @@ button {
 
 @media (max-width: 576px) {
   .marquee-container {
-    width: 105% !important;
+    // width: 105% !important;
   }
-  .main-img {
-    width: 105% !important;
-  }
+
   h1 {
-    font-size: 35px;
-}
+    font-size: 36px;
+  }
+
   .footer .address {
     margin-right: 0;
-}
+  }
 
-.footer .contact-footer p {
-  font-size: 28px;
-}
-.about-header {
-  margin-left: 0;
-  color: #131313;
-  font-weight: 500;
-  font-size: 36px;
-  line-height: 115%;
-}
-.company-value p {
-  font-size: 25px;
-}
-.about-sustain {
-  margin-right: 0;
-  font-size: 36px;
-}
+  .footer .contact-footer p {
+    font-size: 28px;
+  }
+
+  .about-header {
+    margin-left: 0;
+    color: #131313;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 115%;
+  }
+
+  .company-value p {
+    font-size: 25px;
+  }
+
+  .about-sustain {
+    margin-right: 0;
+    font-size: 36px;
+  }
 }
 
 @media (max-width: 426px) {
+  .footer .down {
+    font-size: 11px;
+  }
+
+  .accordion-header p {
+    margin-left: 1rem;
+    font-size: 13px;
+  }
+  button a{
+    font-size: 12px !important;
+}
+.footer  p{
+  font-size: 12px;
+}
+.footer  a{
+  font-size: 12px;
+}
+  .statistics p {
+    font-size: 136px;
+}
+  .contact {
+    margin: 3rem 0 0 0
+  }
+
+  .main {
+    margin-top: 10rem;
+  }
+
+  .sustain-header {
+    margin-top: 4rem;
+    font-size: 30px;
+  }
+
+  .company-value-border {
+    border: none !important;
+    border-left: 2px solid #000000 !important;
+    padding-right: 5rem;
+  }
+
+  .products .product-desc {
+    padding-right: 2rem;
+  }
+
   .header .lang-link li {
     margin-top: 40px;
     padding: 0 10px;
+  }
+
+  //   .langs-mobile {
+  //     margin-top: 3rem;
+  //     margin-bottom: 3rem;
+  // }
 }
+
+@media (max-width: 391px) {
+  .header .lang-link li {
+    margin-top: 40px;
+    padding: 0 10px;
+
+  }
+
+  .footer .contact-footer p {
+    font-size: 26px;
+  }
+
+  .products .product-desc {
+    padding: 0;
+  }
+
+  
 }

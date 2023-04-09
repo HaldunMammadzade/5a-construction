@@ -13,34 +13,36 @@ const About = () => {
                 <title>{t('about')}</title>
             </Head>
             <section>
-                <div className='container-sm-fluid'>
+                <div className='container-fluid'>
                     <div className='my-lg-5 my-0 section-content'>
                         <div className='mt-lg-5 mt-0 pt-lg-5 pt-0 '>
                             <h1 className="about-header animated fadeInRight px-lg-0 px-3">{t('aboutMain')}</h1>
-                            <img className='w-100 py-4 animated fadeInLeft d-md-block d-none' src="/static/about-main.jpg" alt="" />
-                            <img className='w-100 py-4 animated fadeInLeft d-md-none d-block' src="/static/about-mobile.jpg" alt="" />
+                            <img className='w-100 py-4 animated fadeInLeft d-lg-block d-none' src="/static/about-main.jpg" alt="" />
+                            
                         </div>
                     </div>
-                    <div className="about px-lg-0 px-3">
+                    
+                </div>
+                <img className='w-100 py-4 animated fadeInLeft d-lg-none d-block' src="/static/about-mobile.jpg" alt="" />
+                <div className="about px-lg-0 px-4">
                         <samp>{t('aboutDesc2')}</samp>
                     </div>
-                </div>
             </section>
 
             <section className='container-fluid'>
-                <div className="row company-value pt-3 pb-5 mb-4">
-                    <div className="col-xl-3 col-md-6 col-12">
+                <div className="row company-value pt-3 pb-5 mb-4 px-lg-0 px-2">
+                    <div className="col-xl-3 col-lg-6 col-12 ">
                         <p className="mr-5">{t('value')}</p>
                     </div>
-                    <div className="col-xl-3 col-md-6 col-12 border-l pr-sm-5">
+                    <div className="col-xl-3 col-lg-6 col-12 my-lg-0 my-4 px-lg-3 px-4 border-l company-value-border value1 pr-lg-5">
                         <h2>1</h2>
                         <span >{t('value1')}</span>
                     </div>
-                    <div className="col-xl-3 col-md-6 col-12 border-l pr-sm-5">
+                    <div className="col-xl-3 col-lg-6 col-12 my-lg-0 my-4 border-l company-value-border pr-lg-5">
                         <h2>2</h2>
                         <span >{t('value2')}</span>
                     </div>
-                    <div className="col-xl-3 col-md-6 col-12 border-l pr-sm-5">
+                    <div className="col-xl-3 col-lg-6 col-12 my-lg-0 my-4 border-l company-value-border pr-lg-5">
                         <h2>3</h2>
                         <span >{t('value3')}</span>
                     </div>
@@ -48,17 +50,17 @@ const About = () => {
             </section>
 
             <section className='container-fluid'>
-                <div className="d-xl-flex justify-content-xl-between py-5 vision">
+                <div className="d-xl-flex justify-content-xl-between py-5 ">
                 <h3 className="d-sm-none d-block">{t('vision')}</h3>
-                    <div className="mr-2">
-                        <img className='main-img' src="/static/about1.jpg " alt="" />
+                    <div className="mr-lg-2 mr-0">
+                        <img className='w-100' src="/static/about1.jpg " alt="" />
                     </div>
                     <div className="ml-md-2 ml-0 mt-md-0 mt-3">
                         <div className="vision d-sm-none d-block">
                             
                             <p>{t('visionText')}</p>
                         </div>
-                        <img className='float-right w-100 vision-img main-img mt-lg-0 mt-3' src="/static/about2.jpg" alt="" />
+                        <img className='float-right w-100 vision-img  mt-lg-0 mt-3' src="/static/about2.jpg" alt="" />
                         <div className="vision d-sm-block d-none">
                             <h3 >{t('vision')}</h3>
                             <p>{t('visionText')}</p>
@@ -67,7 +69,7 @@ const About = () => {
                 </div>
 
                 <div className="d-xl-flex justify-content-xl-between py-5">
-                    <div className="mr-2 ">
+                    <div className="mr-lg-2 mr-0 ">
                         <div className="vision d-sm-none d-block">
                             <h3 >{t('mission')}</h3>
                             <p>{t('missionText')}</p>
@@ -79,7 +81,7 @@ const About = () => {
                         </div>
                     </div>
                     <div className="ml-md-2 ml-0">
-                        <img className=' main-img' src="/static/about4.jpg" alt="" />
+                        <img className=' w-100' src="/static/about4.jpg" alt="" />
                     </div>
 
                 </div>

@@ -25,9 +25,9 @@ const Project1 = () => {
                 <div>
                     <img className="w-100" src="/static/project4.jpg" alt="" />
                 </div>
-                <div className="product-text mt-5">
+                {/* <div className="product-text mt-5">
                     <span>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Ipsum is that it has a more-or-less normal It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution.</span>
-                </div>
+                </div> */}
                 <div className='row animated fadeInLeft mb-5'>
                     <div className='col-md-6  col-12 '>
                         <div className='mt-5 product-img'>
