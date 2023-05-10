@@ -12,8 +12,8 @@ const About = () => {
             <Head>
                 <title>{t('about')}</title>
             </Head>
-            <section>
-                <div className='container-fluid'>
+            <section  className='container-fluid' >
+                <div>
                     <div className='my-lg-5 my-0 section-content'>
                         <div className='mt-lg-5 mt-0 pt-lg-5 pt-0 '>
                             <h1 className="about-header animated fadeInRight px-lg-0 px-3">{t('aboutMain')}</h1>
@@ -24,7 +24,7 @@ const About = () => {
                     
                 </div>
                 <img className='w-100 py-4 animated fadeInLeft d-lg-none d-block' src="/static/about-mobile.jpg" alt="" />
-                <div className="about px-lg-0 px-4">
+                <div className="about ">
                         <samp>{t('aboutDesc2')}</samp>
                     </div>
             </section>
@@ -53,7 +53,7 @@ const About = () => {
                 <div className="d-xl-flex justify-content-xl-between py-5 ">
                 <h3 className="d-sm-none d-block">{t('vision')}</h3>
                     <div className="mr-lg-2 mr-0">
-                        <img className='w-100' src="/static/about1.jpg " alt="" />
+                        <img className='' src="/static/about1.jpg " alt="" />
                     </div>
                     <div className="ml-md-2 ml-0 mt-md-0 mt-3">
                         <div className="vision d-sm-none d-block">
@@ -69,19 +69,19 @@ const About = () => {
                 </div>
 
                 <div className="d-xl-flex justify-content-xl-between py-5">
-                    <div className="mr-lg-2 mr-0 ">
+                    <div className="mr-lg-2 mr-0">
                         <div className="vision d-sm-none d-block">
                             <h3 >{t('mission')}</h3>
                             <p>{t('missionText')}</p>
                         </div>
-                        <img className='float-right w-100 vision-img ' src="/static/about3.jpg" alt="" />
+                        <img className='float-right w-100 vision-img mb-5' src="/static/about3.jpg" alt="" />
                         <div className="vision d-sm-block d-none">
                             <h3 >{t('mission')}</h3>
                             <p>{t('missionText')}</p>
                         </div>
                     </div>
                     <div className="ml-md-2 ml-0">
-                        <img className=' w-100' src="/static/about4.jpg" alt="" />
+                        <img className=' ' src="/static/about4.jpg" alt="" />
                     </div>
 
                 </div>

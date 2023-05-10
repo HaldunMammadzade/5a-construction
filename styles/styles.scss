@@ -15,6 +15,12 @@ body {
 
 }
 
+.mr-17 {
+  margin-right: 17rem;
+}
+.mr-11 {
+  margin-right: 11rem;
+}
 
 
 h1 {
@@ -148,6 +154,7 @@ button {
   p {
     font-size: 150px;
     font-weight: 400;
+    line-height: 180px;
   }
 
   span {
@@ -229,7 +236,7 @@ button {
 }
 
 .product-text-left {
-  margin-right: 60rem;
+  margin-right: 55rem;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
@@ -270,7 +277,7 @@ button {
 }
 
 .about-header {
-  margin-left: 35rem;
+  margin-left: 27rem;
   color: #131313;
   font-weight: 500;
   font-size: 50px;
@@ -278,7 +285,7 @@ button {
 }
 
 .sustain-header {
-  margin-left: 30rem;
+  margin-left: 24rem;
   color: #131313;
   font-weight: 500;
   font-size: 50px;
@@ -288,7 +295,7 @@ button {
 }
 
 .about-sustain {
-  margin-right: 35rem;
+  margin-right: 24rem;
   color: #131313;
   font-weight: 500;
   font-size: 50px;
@@ -354,7 +361,7 @@ button {
 
 .vision-img {
   height: 400px;
-  margin-bottom: 6rem;
+  margin-bottom: 2rem;
 }
 
 .contact {
@@ -749,6 +756,7 @@ button {
   font-weight: 400;
   font-size: 16px;
   line-height: 140%;
+  margin-right: 47rem;
 }
 
 .accordion-collapse {
@@ -1008,6 +1016,12 @@ button {
 }
 
 @media (max-width: 769px) {
+  .section-content p {
+    margin-right: 0 !important;
+}
+  .accordion-body {
+    margin-right: 0;
+}
   .company-value-border {
     border: none !important;
     border-left: 2px solid #000000 !important;

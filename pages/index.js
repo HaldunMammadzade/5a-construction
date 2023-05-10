@@ -20,7 +20,7 @@ export default function Home() {
                     <div className='d-lg-flex d-block my-xl-5 py-xl-5 mt-0 pt-0 section-content'>
                         <div className='mt-xl-5 pt-xl-5 px-sm-0 px-3 mt-0 pt-0 animated fadeInLeft'>
                             <h1>{t('homeTitle')}</h1>
-                            <p className='mt-4'>{t('homeDesc')}</p>
+                            <p className='mt-4 mr-17'>{t('homeDesc')}</p>
                             <button className='mt-4'>
                                 <a href="/contact">{t('buttonContact')}</a>
                             </button>
@@ -58,7 +58,7 @@ export default function Home() {
                             <h1>{t('aboutTitle')}</h1>
                         </div>
                         <div className='col-md-6 col-12 '>
-                            <p>{t('aboutDesc')}</p>
+                            <p className='mr-11'>{t('aboutDesc')}</p>
                             <button className='mt-4'>
                                 <a href="/about-us">{t('buttonMore')}</a>
                             </button>
@@ -150,7 +150,7 @@ export default function Home() {
                     <div className='d-xl-flex d-block justify-content-between my-xl-5 py-lg-5'>
                         <div className='mt-xl-5 mt-3 pt-xl-5 mt-3 product-desc'>
                             <h1>{t('ourProducts')}</h1>
-                            <p className='mt-4'>{t('ourProductsText')}</p>
+                            <p className='mt-4 '>{t('ourProductsText')}</p>
                             <button className='mt-4'>
                                 <a href="/products">{t('more')}</a>
                             </button>
@@ -165,7 +165,7 @@ export default function Home() {
                         </div>
 
                     </div>
-                    <div className='d-lg-flex align-items-center d-block justify-content-between py-2'>
+                    <div className='d-lg-flex d-block justify-content-between py-2'>
                         <div>
                             <div className='product-img'>
                                 <a href="/products"><img className='float-xl-left px-5 w-100' src="/static/product2.jpg" alt="" /></a>

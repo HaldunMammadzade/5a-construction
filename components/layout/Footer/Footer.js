@@ -8,7 +8,7 @@ const Footer = () => {
     return (
         <div className="footer">
             <div className="container-fluid pt-5 pb-3">
-                <div className="row align-items-strech px-md-0 px-3">
+                <div className="row align-items-strech p-0 m-0">
                     <div className="col-lg-6 col-12 d-flex justify-content-between p-0">
                         <div>
                             <a href="/"><img src="/static/logo2.svg" alt="" /></a>

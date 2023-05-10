@@ -1,9 +1,10 @@
 
 @font-face {
-    font-family: 'TTFirsNeue-Light';
+    font-family: 'TTFirsNeue-Regular';
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url('./public/font/TTFirsNeue-Light.ttf') format('truetype');
+    src: url('./TTFirsNeue-Regular.woff2') format('woff2'),
+    url('./TTFirsNeue-Regular.ttf') format('ttf');
     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
