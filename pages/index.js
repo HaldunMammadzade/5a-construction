@@ -14,6 +14,7 @@ export default function Home() {
         <>
             <Head>
                 <title>{t('home')}</title>
+                
             </Head>
             <section>
                 <div className='container-fluid'>

@@ -1,10 +1,9 @@
 
 @font-face {
-    font-family: 'TTFirsNeue-Regular';
+    font-family: 'FamiljenGrotesk-Regular';
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url('./TTFirsNeue-Regular.woff2') format('woff2'),
-    url('./TTFirsNeue-Regular.ttf') format('ttf');
+    src: url('./FamiljenGrotesk-Regular.ttf') format('truetypw');
     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
