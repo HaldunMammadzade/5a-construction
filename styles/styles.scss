@@ -1,6 +1,13 @@
 @import 'animate.css';
-@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;600&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;600&display=swap');
+@font-face {
+  font-family: 'Familjen Grotesk';
+  src: url('../public/font/Familjen_Grotesk/static/FamiljenGrotesk-Regular.ttf'); /* Font dosyasının yolunu düzenleyin */
+}
 
+body {
+  font-family: 'Familjen Grotesk', sans-serif !important;
+}
 
 body {
   background-color: #fff !important;
