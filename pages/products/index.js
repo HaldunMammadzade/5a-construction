@@ -33,7 +33,7 @@ const Products = () => {
           <div className="col-md-8  col-12 ">
             <div>
             <div className="mt-5 product-img">
-              <img className="w-100" style={{height: "503px"}} src="/static/product5.jpg" alt="" />
+              <img className="w-100 product-img-size"  src="/static/product5.jpg" alt="" />
             </div>
             <div>
               <p className="border-b product-name m-0 py-1">{t("product17")}</p>
@@ -110,7 +110,7 @@ const Products = () => {
           </div>
           <div className="col-md-8  col-12 ">
             <div className="mt-5 product-img">
-              <img style={{height: "503px"}}  className="w-100" src="/static/product13.jpg" alt="" />
+              <img className="w-100 product-img-size" src="/static/product13.jpg" alt="" />
             </div>
             <div>
               <p className="border-b product-name m-0 py-1">{t("product11")}</p>
@@ -121,7 +121,7 @@ const Products = () => {
         <div className="row animated fadeInLeft ">
           <div className="col-md-8  col-12 ">
             <div className="mt-5 product-img">
-              <img style={{height: "503px"}}  className="w-100" src="/static/product14.jpg" alt="" />
+              <img  className="w-100 product-img-size" src="/static/product14.jpg" alt="" />
             </div>
             <div>
               <p className="border-b product-name m-0 py-1">{t("product12")}</p>

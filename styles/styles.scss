@@ -15,7 +15,14 @@ body {
   overflow-y: auto;
 }
 
-
+.own-link {
+  font-weight: 400;
+  font-size: 12px !important;
+  line-height: 100%;
+  &:hover {
+    color: #979797 !important;
+  }
+}
 * {
   font-family: 'Familjen Grotesk', sans-serif !important;
 }
@@ -51,7 +58,9 @@ h1 {
   overflow: hidden;
 }
 
-
+.product-img-size {
+  height: 503px;
+}
 
 .marquee-container {
   height: 70px;
@@ -365,7 +374,7 @@ button {
 }
 
 .vision-img {
-  height: 400px;
+  height: fit-content;
   margin-bottom: 2rem;
 }
 
@@ -400,7 +409,7 @@ button {
       color: #A9A9A9;
     }
 
-    address {
+    p {
       font-weight: 500;
       font-size: 16px;
       line-height: 21px;
@@ -1043,6 +1052,7 @@ button {
   .accordion-header p {
     margin-left: 1rem;
     font-size: 20px;
+    color: black;
   }
 
   .accordion-collapse {
@@ -1314,6 +1324,15 @@ button {
 }
 
 @media (max-width: 426px) {
+  .main-img {
+    width: 100%;
+  }
+  .product-img-size {
+    height: fit-content;
+  }
+  .vision-img {
+    width: 100%;
+  }
   .footer .down {
     font-size: 11px;
   }
@@ -1339,7 +1358,7 @@ button {
   }
 
   .main {
-    margin-top: 10rem;
+    margin-top: 8rem;
   }
 
   .sustain-header {

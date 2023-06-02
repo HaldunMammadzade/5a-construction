@@ -45,7 +45,7 @@ const Footer = () => {
 
                 <div className="d-sm-flex d-block justify-content-sm-between down pt-4">
                     <address className="text-uppercase">2022 5A Construction  |  Bütün hüquqlar qorunur</address>
-                    <address>DESIGN AND DEVELOPED BY MARTIAN STUDIO</address>
+                    <a className="own-link" href="https://www.martianstudio.co/" target="_blank">DESIGN AND DEVELOPED BY MARTIAN STUDIO</a>
                 </div>
             </div>
         </div>

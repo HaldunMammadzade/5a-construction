@@ -19,22 +19,22 @@ const Contact = () => {
 
                         <div className="d-flex justify-content-between border-t contact-info pl-3 pt-4 pb-5">
                             <span>{t('mail')}</span>
-                            <address>sales@5aconstruction.co</address>
+                            <p>sales@5aconstruction.co</p>
                         </div>
-                        <div className="d-flex justify-content-between border-t contact-info-number pl-3 pt-4 pb-5">
+                        <div className="d-flex justify-content-between border-t contact-info pl-3 pt-4 pb-5">
                             <span>{t('number')}</span>
-                            <address>+99455/703130011</address>
+                            <p >+994 55/70 313-00-11</p>
                         </div>
                         <div className="d-flex justify-content-between border-t contact-info pl-4 pt-3 pb-5">
                             <span>{t('addressText')}</span>
-                            <address>{t('address1')}
+                            <p>{t('address1')}
                                 <br />
                                 {t('address2')}
                                 <br />
-                                {t('address3')}</address>
+                                {t('address3')}</p>
                         </div>
                     </div>
-                    <div className="col-lg-5 col-12 py-3 pl-0 pr-3">
+                    <div className="col-lg-5 col-12 py-3 pl-0 pr-md-3 pr-0">
                         <img className='w-100 animated fadeInLeft' src="/static/contact.jpg" alt="" />
                     </div>
                     <div className="col-lg-7 col-12 border-l p-0 d-lg-block d-none">

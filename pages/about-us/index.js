@@ -53,7 +53,7 @@ const About = () => {
                 <div className="d-xl-flex justify-content-xl-between py-5 ">
                 <h3 className="d-sm-none d-block">{t('vision')}</h3>
                     <div className="mr-lg-2 mr-0">
-                        <img className='' src="/static/about1.jpg " alt="" />
+                        <img className='vision-img' src="/static/about1.jpg " alt="" />
                     </div>
                     <div className="ml-md-2 ml-0 mt-md-0 mt-3">
                         <div className="vision d-sm-none d-block">
@@ -81,7 +81,7 @@ const About = () => {
                         </div>
                     </div>
                     <div className="ml-md-2 ml-0">
-                        <img className=' ' src="/static/about4.jpg" alt="" />
+                        <img className='vision-img' src="/static/about4.jpg" alt="" />
                     </div>
 
                 </div>
