@@ -50,7 +50,7 @@ const About = () => {
             </section>
 
             <section className='container-fluid'>
-                <div className="d-xl-flex justify-content-xl-between py-5 ">
+                <div className="d-xl-flex vision justify-content-xl-between py-5 ">
                 <h3 className="d-sm-none d-block">{t('vision')}</h3>
                     <div className="mr-lg-2 mr-0">
                         <img className='vision-img' src="/static/about1.jpg " alt="" />
